@@ -1,0 +1,37 @@
+.single_message {
+    color: white;
+    /* background-image: linear-gradient(180deg, #F73D66, #F5493D); */
+    max-width: 320px;
+    width: fit-content;
+    margin: 0;
+    padding: 6px 15px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.single_message_page {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    max-width: 75%;
+}
+
+.myself {
+    margin-left: auto;
+}
+
+.single_message_img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.not_me {
+    color: black;
+    background-color: #eeeeee;
+}
+
+.its_me {
+    background-image: linear-gradient(90deg, #F96385, #F76C67);
+}

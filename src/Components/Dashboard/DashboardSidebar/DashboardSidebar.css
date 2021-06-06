@@ -1,0 +1,34 @@
+.dashboard_sidebar {
+    width: 120px;
+    height: 92vh;
+    background-color: #F7F8FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8vh;
+}
+
+.dashboard_sidebar_logo {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.dashboard_sidebar_logo svg {
+    color: white;
+    font-size: 25px;
+    color: #CED1DA;
+}
+
+.dashboard_sidebar_logo_active {
+    background-image: linear-gradient(180deg, #F73D66, #F5493D);
+}
+
+.dashboard_sidebar_logo_active svg {
+    color: white !important;
+}

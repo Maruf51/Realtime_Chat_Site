@@ -1,0 +1,23 @@
+.register_page {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.account_create {
+    color: #4BB543;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.account_create a {
+    color: red;
+    text-decoration: none;
+}

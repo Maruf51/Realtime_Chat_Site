@@ -1,0 +1,26 @@
+.message_type {
+    width: 88vw;
+}
+
+.message_type_top_detail {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.message_type_h1 {
+    font-size: 2.7em;
+    font-weight: 500;
+}
+
+.message_type_avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.active_user {
+    color: rgb(2, 202, 2) !important;
+}
